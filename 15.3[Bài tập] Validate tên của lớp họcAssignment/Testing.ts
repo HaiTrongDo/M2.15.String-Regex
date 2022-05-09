@@ -1,7 +1,7 @@
 import {ClassRegExp} from "./ClassRegExp";
 
-let validClass: string[] = ["123abc_", "_abc123", "______", "123456", "abcdefgh"];
-let invalidClass: string[] = [".@", "12345", "1234_", "abcde"];
+let validClass: string[] = ["C0318G", "A2384M"];
+let invalidClass: string[] = ["M0318G", "P0323A"];
 
 for (let className of validClass) {
     let classRegex = new ClassRegExp()
